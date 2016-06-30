@@ -2627,8 +2627,8 @@ Main components
 }
 .cd-timeline-img img {
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   position: relative;
 }
 .cd-timeline-img.cd-picture {
@@ -2650,6 +2650,10 @@ Main components
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
   }
+  .cd-timeline-img img {
+  width: 60px;
+  height: 60px;
+}
   .cssanimations .cd-timeline-img.is-hidden {
     visibility: hidden;
   }
