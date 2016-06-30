@@ -2551,7 +2551,7 @@ Modules - reusable parts of our design
   max-width: 1170px;
   margin: 0 auto;
 }
-.cd-container::after {
+.cd-container:after {
   /* clearfix */
   content: '';
   display: table;
@@ -2569,7 +2569,7 @@ Main components
   margin-top: 2em;
   margin-bottom: 2em;
 }
-#cd-timeline::before {
+#cd-timeline:before {
   /* this is the vertical line */
   content: '';
   position: absolute;
@@ -2584,7 +2584,7 @@ Main components
     margin-top: 3em;
     margin-bottom: 3em;
   }
-  #cd-timeline::before {
+  #cd-timeline:before {
     left: 50%;
     margin-left: -2px;
   }
@@ -2594,7 +2594,7 @@ Main components
   position: relative;
   margin: 2em 0;
 }
-.cd-timeline-block::after {
+.cd-timeline-block:after {
   clear: both;
   content: "";
   display: table;
@@ -2725,7 +2725,7 @@ Main components
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
 }
-.cd-timeline-content::after {
+.cd-timeline-content:after {
   clear: both;
   content: "";
   display: table;
@@ -2759,7 +2759,7 @@ Main components
   padding: .8em 0;
   opacity: .7;
 }
-.cd-timeline-content::before {
+.cd-timeline-content:before {
   content: '';
   position: absolute;
   top: 16px;
@@ -2789,7 +2789,7 @@ Main components
     padding: 1.6em;
     width: 45%;
   }
-  .cd-timeline-content::before {
+  .cd-timeline-content:before {
     top: 24px;
     left: 100%;
     border-color: transparent;
@@ -2809,7 +2809,7 @@ Main components
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
   }
-  .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
+  .cd-timeline-block:nth-child(even) .cd-timeline-content:before {
     top: 24px;
     left: auto;
     right: 100%;
