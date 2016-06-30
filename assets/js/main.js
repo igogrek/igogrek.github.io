@@ -115,7 +115,7 @@
 						.css('transition', 'none');
 						
 						
-		jQuery(document).ready(function($) {
+
   var $timeline_block = $('.cd-timeline-block');
 
   //hide timeline blocks which are outside the viewport
@@ -133,7 +133,7 @@
       }
     });
   });
-});
+
 	});
 
 })(jQuery);
