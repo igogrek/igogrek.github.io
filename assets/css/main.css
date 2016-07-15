@@ -1721,12 +1721,24 @@
 			display: block;
 			width: 100%;
 		}
+		
+		#portfolio .item img {
+			border-top-left-radius: 0.35em;
+    			border-top-right-radius: 0.35em;
+		}
 
 		.image.featured {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+			
 		}
+		
+		.image.featured img {
+			border-radius: 0.35em;
+		}
+		
+		
 
 		.image.left {
 			float: left;
@@ -1944,6 +1956,8 @@
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
+			border-bottom-left-radius: 0.35em;
+    			border-bottom-right-radius: 0.35em;
 		}
 
 			.item header h3 {
@@ -2623,6 +2637,7 @@ Main components
   left: 0;
   width: 40px;
   height: 40px;
+  border-radius: 0.35em;
   box-shadow: 0 0 0 4px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
@@ -2630,9 +2645,7 @@ Main components
   width: 40px;
   height: 40px;
   position: relative;
-}
-.cd-timeline-img.cd-picture {
-  background: #75ce66;
+  border-radius: 0.35em;
 }
 .cd-timeline-img.cd-movie {
   background: #c03b44;
