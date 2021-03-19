@@ -1,6 +1,6 @@
 # My github pages site
 
-Also here http://bednya.ga/
+Also here https://bednya.ga/
 
 For now just simple one pager
 
